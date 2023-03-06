@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.wrapper  {
+    width: 0ch;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+}
+ 
+.bg-video {
+        display: none;
+    }
+
+h3 {
+    color: #fc00c5;
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+.button a {
+    color: #fff;
+    font-size: 12pt;
+	background: #fc00c5;
+	text-decoration: none;
+	padding: 12px;
+    border-radius: 18%;
+	font-family: sans-serif;
+}
+
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
